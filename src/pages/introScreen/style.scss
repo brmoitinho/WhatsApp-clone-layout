@@ -1,0 +1,48 @@
+@import '../../styles/stylesGeneral.scss';
+
+.conteiner-background{
+    height: 100vh;
+    background: $colorBackground;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+    gap: 50px;
+}
+
+.div-ImgWhats{
+    max-height: 80px;
+    max-width: 70px;
+}
+
+.title-whats{
+    color: $colorWhite;
+    font-family: $font-family;
+    font-size: 25px;
+}
+
+.intro-Conteiner-ImgText{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+    h1{
+        font-family: $font-family;
+        color: $colorWhite;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 20px;
+        opacity: 75%;
+    }
+    
+    div{
+        height: 17px;
+    }
+}
+
+.div-ImgBar{
+    max-width: 100vh;
+}
+

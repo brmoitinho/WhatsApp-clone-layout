@@ -1,0 +1,39 @@
+@import '../../styles/stylesGeneral.scss';
+
+.conteiner-header{
+    background-color: $colorGreen;
+    border-radius:20px 20px 0 0;
+    max-height: 6%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    h1{
+        margin: 0;
+        font-family: $font-style;
+        color: $colorWhite;
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    img{
+        @include imgSetting();
+    }
+}
+
+.conteiner-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 9px;
+    div{
+        height: 13px;
+        width: 13px;
+    }   
+}
+

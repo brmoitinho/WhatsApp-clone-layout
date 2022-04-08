@@ -1,0 +1,116 @@
+@import '../../styles/stylesGeneral.scss';
+
+.contener-setting-general{
+    @include contener-setting-general()
+}
+
+.conteiner-left{
+    @include conteiner-left();
+}
+
+.conteiner-left-top{
+    background-color: $colorGrey2;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 8px;
+
+    h1{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;        
+    }
+}
+
+img{
+    @include imgSetting()
+}
+
+h1{
+    color: $colorWhite;
+    font-family: $font-family;
+    margin: 0;
+}
+
+.conteiner-left-top-imgh1{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.div-img{
+    height: 15px;
+}
+
+.conteiner-left-main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 15px;
+    min-height: 120vh;
+}
+
+.conteiner-avatar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    h1, h2{
+        font-style: normal;
+        font-weight: 500;
+    }
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: 5px;
+    }
+
+}
+
+.name-avatar{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-imgAvatar{
+    height: 60px;
+}
+
+.conteiner-left-main-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner-left-main-menu-options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+
+    .div-img{
+        padding-bottom: 10px;
+    }
+    
+    h1{
+        font-size: 15px;
+        color: #DBDBDB;
+    }
+    img{
+        width: 15px;
+    }
+}
+
+.div-h1{
+    min-width: 93%;
+    border-bottom: 0.5px solid #E3E3E3;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

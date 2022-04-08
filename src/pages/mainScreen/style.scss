@@ -1,0 +1,10 @@
+@import '../../styles/stylesGeneral.scss';
+
+.conteiner-left{
+    @include conteiner-left();
+}
+
+.contener-setting-general{
+    @include contener-setting-general()
+}
+

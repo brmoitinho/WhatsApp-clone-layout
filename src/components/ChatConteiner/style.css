@@ -1,0 +1,217 @@
+.conteiner-left {
+  background-color: #131C21;
+  width: 33%;
+  background: #131C21;
+  border-right: 0.5px solid #5C5C5C;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.div-img-avatar {
+  width: 40px;
+}
+
+.conteiner-left-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 10vh;
+  background-color: #262D31;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.conteiner-left-header-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+
+.div-img-icon {
+  width: 20px;
+}
+
+.conteiner-left-search {
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 0.5px solid #808080;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.conteiner-left-search div {
+  height: 15px;
+  background: #313538;
+  border-radius: 50px 0 0 50px;
+  padding: 8px;
+}
+
+.conteiner-left-search input {
+  background: #313538;
+  border-radius: 0 50px 50px 0;
+  min-width: 370px;
+  border: none;
+}
+
+.conteiner-chats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.conteiner-chats-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.conteiner-chats-conteiner-chat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 0.5px solid #9F9F9F;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.conteiner-chats-conteiner-chat h1, .conteiner-chats-conteiner-chat h2, .conteiner-chats-conteiner-chat h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  font-style: normal;
+  margin: 0;
+}
+
+.conteiner-chats-conteiner-chat h1 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.conteiner-chats-conteiner-chat h2 {
+  font-family: "Montserrat", sans-serif;
+  opacity: 75%;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.conteiner-chats-conteiner-chat h3 {
+  font-weight: 400;
+  font-size: 10px;
+  opacity: 75%;
+  margin-top: 10px;
+}
+
+.conteiner-chats-chat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 10px;
+  padding-right: 0;
+}
+
+.div-img-chat {
+  height: 50px;
+  width: 50px;
+}
+
+.div-img-checks {
+  height: 13px;
+  padding-bottom: 3px;
+}
+
+.conteiner-chats-chat-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 15px;
+}
+
+.conteiner-chats-chat-info-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.div-img-chat-guy {
+  width: 10px;
+}
+
+.div-img-emoticon {
+  width: 35px;
+}
+
+.div-img-emoticon img {
+  margin: 0;
+}
+
+.message-emoticon {
+  gap: 0;
+}
+
+.message-emoticon-checks {
+  margin-right: 5px;
+}
+/*# sourceMappingURL=style.css.map */

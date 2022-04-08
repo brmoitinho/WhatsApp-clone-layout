@@ -1,0 +1,152 @@
+@import '../../styles/stylesGeneral.scss';
+
+.conteiner-chat{
+    min-width: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    @include imgSetting()
+}
+
+.conteiner-chat-header{
+    @include conteiner-header();
+}
+
+.conteiner-chat-header-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.divImag-profile{
+    height: 40px;
+}
+
+.divImag-profile-text{
+    display: flex;
+    flex-direction: column;
+    h1, h2{
+        color: $colorWhite;
+        font-family: $font-family;
+        margin: 0;
+    }
+    h1{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    h2{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        opacity: 50%;
+    }
+}
+
+.div-icon-header-chat{
+    height: 25px;
+    width: 25px;
+}
+
+.contiener-icons-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.chat{
+    background-image: url('../../assets/background.svg');
+    background-color: $colorBackground;
+    background-size: cover;
+    min-height: 128vh;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    h3{
+        color: $colorWhite;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        margin: 0;
+    }
+}
+
+.footer-chat{
+    @include conteiner-header();
+    padding-left: 10px;
+    align-items: center;
+    input{
+        border: 0;
+        border-radius: 50px;
+        background-color: $colorGrey4;
+        height: 40px;
+        width: 120vh;
+        padding-left: 20px;
+    }
+}
+
+.div-icon-footer-chat{
+    height: 25px;
+    width: 25px;
+}
+
+.phrase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 120vh;
+}
+
+.phrase-exact{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: $colorGrey3;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.phrase-exact-content{
+    font-size: 20px;
+    line-height: 17px;
+    padding-bottom: 5px;
+}
+
+.hours{
+    font-size: 10px;
+    line-height: 9px;
+    opacity: 55%;
+}
+
+.empty-div{
+    background-color: none;
+}
+
+.phrase-double{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.phrase-isolated-hours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.today{
+    background: $colorBrown;
+    border-radius: 5px;
+    padding: 5px;
+}

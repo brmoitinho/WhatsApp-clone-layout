@@ -1,0 +1,46 @@
+$colorBackground: #131C21;
+
+$colorWhite: #FFFFFF;
+
+$font-family: 'Montserrat', sans-serif;
+
+$colorGreen: #00BFA5;
+
+$colorGrey2: #313538;
+
+$colorGrey3: #262D31;
+
+$colorGrey4: #494949;
+
+$colorBrown: #1E1E1E;
+
+
+
+
+
+@mixin imgSetting {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+@mixin conteiner-left {
+    background-color: $colorBackground;
+    width: 33%;
+}
+
+@mixin contener-setting-general {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin  conteiner-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: $colorGrey3;
+    padding-left: 10px;
+    padding-right: 20px;
+    
+}

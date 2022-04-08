@@ -1,0 +1,15 @@
+.conteiner-left {
+  background-color: #131C21;
+  width: 33%;
+}
+
+.contener-setting-general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+/*# sourceMappingURL=style.css.map */

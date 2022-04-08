@@ -1,0 +1,55 @@
+.conteiner-header {
+  background-color: #00BFA5;
+  border-radius: 20px 20px 0 0;
+  max-height: 6%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.conteiner-header h1 {
+  margin: 0;
+  font-style: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.conteiner-header img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.conteiner-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+  padding-bottom: 9px;
+}
+
+.conteiner-icons div {
+  height: 13px;
+  width: 13px;
+}
+/*# sourceMappingURL=style.css.map */

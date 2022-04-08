@@ -1,0 +1,37 @@
+@import '../../styles/stylesGeneral.scss';
+
+.conteiner-screenLogo{
+    background-color: $colorGrey3;
+    min-width: 150vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    align-items: center;
+    
+    img{
+        @include imgSetting();
+    }
+    h1, h2{
+        margin: 0;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        color: $colorWhite;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 20px;
+        opacity: 70%;
+    }
+}
+
+.div-img-screenLogo{
+    height: 400px;
+    width: 400px;
+}
+
